@@ -1,3 +1,4 @@
 # outlawed-projeto
-criado por Caroline Montesanti
-Desenvolvimento de site proposto durante o módulo de HTML e CSS no projeto Pequenos Talentos.
+https://carolmontesanti-glitch.github.io/outlawed/
+
+criado por Caroline Montesanti.
