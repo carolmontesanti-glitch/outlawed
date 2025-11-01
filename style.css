@@ -3,15 +3,24 @@
 }
 
 html{
+    font-size: 80.5%;
     scroll-behavior: smooth;
 }
 
 body{
     margin: 0;
-    font-family:'Inter', sans-serif;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2px;
     color: #222;
     background-color: #fff;
     line-height: 1.6;
+}
+
+h1{
+    font-weight: 300;
+    letter-spacing: 1px;
 }
 
 .topbar{
@@ -19,7 +28,11 @@ body{
     top: 0;
     z-index: 10;
     background-color: white;
-    border-bottom: 4px solid white;
+    border-bottom: 1px solid rgb(176, 176, 176);
+}
+
+p{
+    font-size: 0.7rem;
 }
 
 .container{
@@ -35,11 +48,16 @@ body{
 }
 
 .logo{
-    font-weight: 800;
+    font-weight: 400;
     text-decoration: none;
     color: black;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding: 0.8rem 0;
+}
+
+.topsize{
+    font-weight: 300;
+    font-size:0.8rem;
 }
 
 nav a {
