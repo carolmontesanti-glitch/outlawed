@@ -99,6 +99,12 @@ section h2{
     display: block;
     border-radius: 0.5rem;
 }
+
+.titulo{
+    text-align: center;
+    font-size: 24px;
+    margin-top: 40px;
+}
 /*background do bestseller*/
 .alt{
     background-color: #fff;
@@ -187,3 +193,22 @@ footer a{
     color: black;
     font-weight: 600;
 }
+
+@media (max-width: 870px) {
+    section {
+        padding-top: 56px;
+        padding-bottom: 56px;
+    }
+
+    nav a {
+        padding: 10px 11px 10px 11px;
+    }
+
+    .hero-text {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
