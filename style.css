@@ -182,18 +182,13 @@ section h2{
 /*carrosel do bestseller*/
 .menu-grid{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     gap: 1rem;
     justify-content: center;
-    overflow-x: auto;
 }
 
 .item{
-    flex-basis: 360px;
-    flex-grow: 1;
-    flex-shrink: 1;
-    background-color: #fff;
-    padding: 13px;
+    flex: 1 1 250px;
 }
 
 .thumb{
@@ -201,6 +196,7 @@ section h2{
     border-radius: 10px;
     overflow: hidden;
 }
+
 /*rotacao da img*/
 .thumb img:hover{
     transform: scale(1.08) rotate(-1deg);
@@ -318,5 +314,11 @@ footer a{
         justify-content: center;
         display: flex;
         flex-direction: column;
+    }
+}
+
+@media (max-width: 600px){
+    .item{
+        flex-basis: 80%;
     }
 }
